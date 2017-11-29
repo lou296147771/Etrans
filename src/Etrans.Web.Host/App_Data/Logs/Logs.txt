@@ -552,3 +552,47 @@ INFO  2017-11-29 17:29:01,025 [22   ] soft.AspNetCore.Hosting.Internal.WebHost -
 INFO  2017-11-29 17:29:01,052 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/H-ui.admin/welcome.html  
 INFO  2017-11-29 17:29:01,052 [42   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/H-ui.admin/welcome.html'. Physical path: 'E:\Software\Etrans\Etrans\src\Etrans.Web.Host\wwwroot\H-ui.admin\welcome.html'
 INFO  2017-11-29 17:29:01,094 [70   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.4941ms 200 text/html
+DEBUG 2017-11-29 21:45:24,489 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-11-29 21:45:24,654 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-11-29 21:45:24,678 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Etrans.Web.Host.Startup.EtransWebHostModule, Etrans.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Etrans.EtransWebCoreModule, Etrans.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Etrans.EtransApplicationModule, Etrans.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Etrans.EtransCoreModule, Etrans.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Etrans.EntityFrameworkCore.EtransEntityFrameworkModule, Etrans.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.2.4.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:24,726 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-11-29 21:45:24,945 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-29 21:45:24,945 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-29 21:45:24,945 [1    ] o.Configuration.LanguageManagementConfig - Converted Etrans (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-29 21:45:24,945 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-11-29 21:45:25,712 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Etrans.EntityFrameworkCore.EtransDbContext, Etrans.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-11-29 21:45:26,616 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-11-29 21:45:26,741 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-11-29 21:45:26,751 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-11-29 21:45:26,758 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Etrans
+DEBUG 2017-11-29 21:45:26,760 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-11-29 21:45:26,859 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-11-29 21:45:26,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2017-11-29 21:45:26,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Etrans.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-11-29 21:45:26,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Etrans.Users.Dto.CreateUserDto
+DEBUG 2017-11-29 21:45:26,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Etrans.Users.Dto.UserDto
+DEBUG 2017-11-29 21:45:26,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Etrans.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-11-29 21:45:26,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Etrans.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-11-29 21:45:26,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Etrans.Roles.Dto.CreateRoleDto
+DEBUG 2017-11-29 21:45:26,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Etrans.Roles.Dto.PermissionDto
+DEBUG 2017-11-29 21:45:26,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Etrans.Roles.Dto.RoleDto
+DEBUG 2017-11-29 21:45:26,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Etrans.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-11-29 21:45:26,959 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Etrans.MultiTenancy.Dto.TenantDto
+INFO  2017-11-29 21:45:32,387 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2017-11-29 21:45:34,169 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Etrans.Web.Host.Controllers.HomeController.Index (Etrans.Web.Host) with arguments ((null)) - ModelState is Valid
+INFO  2017-11-29 21:45:40,258 [10   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+INFO  2017-11-29 21:45:40,383 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Etrans.Web.Host.Controllers.HomeController.Index (Etrans.Web.Host) in 6554.4635ms
+INFO  2017-11-29 21:45:40,399 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8034.1328ms 200 text/html; charset=utf-8
